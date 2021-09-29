@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Stick+No+Bills:wght@200&display=swap');
+
+body{
+ background-color: burlywood;
+ overflow-x: hidden;
+ 
+}
+
+.pealkiri1 {
+    color: cadetblue;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 5rem; 
+    text-align: center;
+    position: relative;
+    animation: header;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    
+    
+}
+@keyframes header {
+    0% {top: -250px}
+    100% {top: 0}
+}
+.pealkiri {
+    color: cadetblue;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 3rem; 
+    text-align: center;
+}
+
+.pealkiri2 {
+    color: cadetblue;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 3rem; 
+    text-align: center;
+    position: relative;
+    animation: textLeft;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    
+}
+
+@keyframes textLeft {
+    0% {left: -1000px}
+    85% {left: 50px}
+    100% {left: 0}
+}
+
+
+.button {
+    color: cadetblue;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 3rem; 
+    
+    opacity: 0;
+    border: 2px solid white;
+    display: inline-block;
+    font-family: 'Yaldevi', sans-serif;
+    color: cadetblue;
+    font-size: 2rem;
+    margin: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    animation: aniBtn;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes aniBtn {
+    0% {opacity: 0;}
+    100% {opacity: 1;} 
+}
+
+
+.tabel {
+    text-align: center;
+    border: 1rem solid rgb(19, 117, 112);
+    margin: 1rem auto;
+    position: relative;
+    animation: textRight;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+       
+}
+
+.Nimekiri {
+    margin: 3rem auto;
+    width: 200px;
+    position: relative;
+    animation: textRight;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    
+    
+    
+    
+}
+.Nimekiri div{
+    margin: 1rem 5%;
+    width: 400px;
+    position: relative;
+    animation: textRight;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    
+    
+}
+.Nimekiri2 div{
+    margin: 1rem 35%;
+    width: 400px;
+    position: relative;
+    animation: textRight;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    
+
+}
+
+@keyframes textRight {
+    0% {right: -1000px}
+    85% {right: 50px}
+    100% {right: 0}
+    
+} 
+
+.Pilt {
+    text-align: center;
+    position: relative;
+    animation: underd;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes underd {
+    0% {bottom: -1250px}
+    100% {bottom: 0}
+}
+
+.Fontcolor {
+    color: rgb(253, 9, 9);
+}
+
+.Tabelicolor {
+    color: blue;
+}
